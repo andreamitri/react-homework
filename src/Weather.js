@@ -49,7 +49,7 @@ export default function SearchEngine() {
           <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {weather.wind} km/h</li>
         </ul>
-        <img src={weather.icon} />
+        <img src={weather.icon} alt="weathericon" />
       </div>
     );
   } else {
