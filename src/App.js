@@ -1,12 +1,24 @@
 import "./App.css";
 import Weather from "./Weather";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather defaultCity="Oslo" />
-      </div>
+      <h1>Weather App</h1>
+      <Weather />
+      <p>
+        This app was coded by Andrea Mitri and is open-sourced on{" "}
+        <a
+          href="https://github.com/andreamitri/react-homework"
+          rel="noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        .{" "}
+      </p>
     </div>
   );
 }
+
+export default App;
